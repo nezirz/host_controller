@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @url = request.host_with_port
+    @host_and_port = request.host_with_port
   end
 end
